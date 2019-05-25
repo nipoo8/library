@@ -1,0 +1,93 @@
+#wrapUl{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+#wrapUl li{
+    width: 4.6%;
+    height: 20px;
+    margin: 5px 1%;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.2);
+}
+#wrapUl li:nth-child(91){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(92){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(93){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(94){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(95){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(96){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(97){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(98){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(99){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(100){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(101){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(102){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(103){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(104){
+    margin-top: 100px;
+}
+#wrapUl li:nth-child(105){
+    margin-top: 100px;
+}
+.ant-pagination{
+    margin: -4px;
+}
+.btn{
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+}
+.btn button:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.btn button:nth-child(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+@media screen and (max-width:576px) {
+    #wrapUl li{
+        height: 4.6%;
+        margin: 1%;
+        border-radius: 2px;
+        box-shadow: 1px 1px gray;
+    }
+}
+#wrapUl #allocate{
+    background-color: red;
+}
+#wrapUl #selected{
+    background-color: aqua;
+}
